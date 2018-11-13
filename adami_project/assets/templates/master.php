@@ -1,7 +1,7 @@
 <?php
 /**
  * MASTER FORM
- * Authors: Adrià Martínez i Mayné
+ * Authors: Adrià Martínez i Mayné & Justine Visitacion
  */
 require_once $_SERVER['DOCUMENT_ROOT'] . '/adami_project/assets/libs/ti.php'
 ?>
@@ -16,12 +16,10 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/adami_project/assets/libs/ti.php'
             <?php startblock('title') ?><?php endblock() ?>
         </title>
 
-        <link rel="stylesheet" href="/adami_project/assets/styles/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/adami_project/libs/bootstrap/css/bootstrap.min.css">
         <?php startblock('ownCss')?><?php endblock()?>
 
-        <script src="/adami_project/assets/styles/bootstrap/js/jquery-3.3.1.min.js"></script>
-        <script src="/adami_project/assets/styles/bootstrap/js/popper.min.js"></script>
-        <script src="/adami_project/assets/styles/bootstrap/js/bootstrap.min.js"></script>
+        
     </head>
     <body>
         <header>
@@ -52,5 +50,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/adami_project/assets/libs/ti.php'
                 <span class="text">Place sticky footer content here.</span>
             </div>
         </footer>
+        <script src="/adami_project/libs/bootstrap/js/jquery-3.3.1.min.js"></script>
+        <script src="/adami_project/libs/styles/bootstrap/js/popper.min.js"></script>
+        <script src="/adami_project/libs/styles/bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
