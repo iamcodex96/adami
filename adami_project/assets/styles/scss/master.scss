@@ -1,0 +1,15 @@
+@import 'variables_sass.scss';
+body{
+    background-color:$negro;
+}
+.bg-dark{
+    background-color: rgba($colorPrimario-dark, $alpha: 0.3) !important;
+}
+.navbar{
+    a:hover{
+        border-bottom: 2px solid $colorSecundario-light;
+    }
+}
+footer{
+    color:$white;
+}
