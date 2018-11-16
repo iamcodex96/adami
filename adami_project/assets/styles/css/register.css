@@ -1,0 +1,23 @@
+.form-signup {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+   color:white;
+}
+.card{
+    background-color:rgba(108, 16,134, 0.4)!important;
+}
+hr {
+    border-color: #FFF;
+  }
+
+html,
+body {
+  height: 100%;
+  background: url(../../media/img/estrellas.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
