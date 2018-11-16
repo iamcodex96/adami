@@ -1,15 +1,71 @@
 @import 'variables_sass.scss';
+body > .container{
+    padding-top: 60px; 
+}
 body{
     background-color:$negro;
+    background: url("../../media/img/estrellas.jpg") no-repeat;
+    background-size: cover;
 }
 .bg-dark{
     background-color: rgba($colorPrimario-dark, $alpha: 0.3) !important;
 }
 .navbar{
+    background: none;
+    position: absolute;
     a:hover{
         border-bottom: 2px solid $colorSecundario-light;
     }
 }
-footer{
-    color:$white;
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
 }
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+.card
+{
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 10px;
+    height: auto;
+    color: white;
+}
+.sticky-top.scrolled {
+    background-color: #000 !important;
+    transition: background-color 100ms linear;
+
+}
+
+/*
+
+body{
+
+   background: url("../img/estrellas.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+.card
+{
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 10px;
+    height: auto;
+    color: white;
+}
+.sticky-top.scrolled {
+    background-color: #000 !important;
+    transition: background-color 100ms linear;
+
+}
+
+
+*/
