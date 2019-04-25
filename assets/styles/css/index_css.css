@@ -1,0 +1,20 @@
+/**
+  * INDEX CSS
+  * Autor:    Justine Visitación Calpito
+  * Fecha:    12/11/2018
+  * Revisor:  Adrià Martínez i Mayné
+  * Fecha:    29/11/2018
+  */
+  
+.videoinfo iframe {
+    border: solid 4px #18bb97;
+}
+
+.info h2 {
+    color: #cccccc;
+    font-style: italic;
+}
+  
+.container .info p {
+    color: #e5e5e5;
+}

@@ -1,0 +1,171 @@
+
+.profile-parent {
+    background-color: #8515a4;
+}
+
+textarea {
+  resize: none;
+}
+
+
+.sideprof .imagen img {
+    border: solid #18bb97 6px;
+    height: 200px;
+    width: 200px;
+}
+
+  .sideprof .navperfil {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .sideprof .navperfil .navperfil-group:hover {
+    background-color: #600f77;
+    border-right: solid 5px #18bb97;
+  }
+  .sideprof .navperfil .activado {
+    background-color: #600f77;
+    border-right: solid 5px #18bb97;
+  }
+  
+  .prof {
+    background-color: #73128e;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .prof .profile-content {
+    color: #e5e5e5;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .prof .profile-content form .form-control {
+    background-color: #600f77;
+    color: #e5e5e5;
+  }
+  .prof .profile-content form .btn {
+    margin-left: 20px;
+    background-color: #600f77;
+  }
+  .prof .profile-content form .btn:hover {
+    margin-left: 20px;
+    background-color: #18bb97;
+  }
+  .prof .profile-content form textarea:hover {
+    border: solid 2px #18bb97;
+  }
+  .prof .profile-content form input:hover {
+    border: solid 2px #18bb97;
+  }
+  .prof .profile-content form select:hover {
+    border: solid 2px #18bb97;
+  }
+  .prof .profile-content form#info .btnguardar {
+    align-content: center;
+  }
+  
+  .movsideprof {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #8515a4;
+    float: left;
+  }
+  .movsideprof .imagen {
+    box-sizing: content-box;
+    display: block;
+  }
+  .movsideprof .imagen img {
+    float: left;
+    border-radius: 50%;
+    border: solid #18bb97 6px;
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    margin-top: 10px;
+  }
+  .movsideprof .username {
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  .movsideprof .username h2 {
+    margin-left: 20px;
+    color: #e5e5e5;
+    box-sizing: content-box;
+    font-size: 16px;
+    text-align: left;
+  }
+  .movsideprof .username p {
+    margin-left: 20px;
+    font-size: 12px;
+    box-sizing: content-box;
+    color: #e5e5e5;
+    text-align: left;
+  }
+  .movsideprof .navperfil {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    color: #fff;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    height: 50px;
+  }
+  .movsideprof .navperfil .navperfil-group {
+    align-self: auto;
+    display: inline-block;
+    font-size: 12px;
+    border-right: solid 5px #8515a4;
+  }
+  .movsideprof .navperfil .navperfil-group:hover {
+    transition: ease-in-out;
+    background-color: #600f77;
+    border-bottom: solid 2px #18bb97;
+  }
+  .movsideprof .navperfil .activado {
+    background-color: #600f77;
+    border-bottom: solid 2px #18bb97;
+  }
+  
+  .movprof {
+    background-color: #73128e;
+    float: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 30px;
+  }
+  .movprof .profile-content {
+    padding: 40px;
+    color: #e5e5e5;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .movprof .profile-content h2 {
+    font-size: 16px;
+  }
+  .movprof .profile-content form .col-form-label {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    line-height: 1;
+  }
+  .movprof .profile-content form .form-group {
+    margin-bottom: 0px;
+  }
+  .movprof .profile-content form .form-control {
+    background-color: #600f77;
+    color: #e5e5e5;
+  }
+  .movprof .profile-content form .btn {
+    background-color: #600f77;
+    align-content: center;
+  }
+  .movprof .profile-content form .btn:hover {
+    background-color: #18bb97;
+    align-content: center;
+  }
+  .movprof .profile-content form input:hover {
+    border: solid 4px #18bb97;
+  }
+  .movprof .profile-content form#info .btnguardar {
+    margin-top: 10px;
+    align-content: center;
+  }
+  
+  /*# sourceMappingURL=profile.css.map */
+  

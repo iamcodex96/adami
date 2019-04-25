@@ -1,0 +1,25 @@
+.container {
+    background-color:rgba(108, 16,134, 0.4)!important;
+    border: solid 4px #18bb97;
+}
+.bg-purple {
+    background-color: #8515a4;
+    border: solid 1px #18bb97;
+}
+
+.bg-purple img, .bg-purple ul {
+    padding: 0;
+}
+
+.bg-purple img {
+    border: solid 1px #18bb97;
+}
+
+.big-number {
+    font-size: 1.5rem;
+    text-shadow: -1px 0 #8515a4, 0 1px #8515a4, 1px 0 #8515a4, 0 -1px #8515a4;
+}
+
+ul.hideNums li span.picNum {
+    display: none;
+}

@@ -1,0 +1,20 @@
+.container {
+    background-color:rgba(108, 16,134, 0.4)!important;
+}
+
+.card {
+    background-color: #8515a4;
+    border: solid 1px #18bb97;
+}
+
+.card:hover {
+    background-color: #600f77;
+}
+
+hr {
+    border-color: #FFF;
+}
+
+.btn {
+    background-color: transparent;
+}

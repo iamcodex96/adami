@@ -1,0 +1,15 @@
+.card {
+    background-color:rgba(108, 16,134, 0.4)!important;
+}
+
+.card img {
+    border: solid #18bb97 4px;
+}
+
+.card i {
+    font-size: 20px;
+}
+
+hr {
+    border-color: #FFF;
+}

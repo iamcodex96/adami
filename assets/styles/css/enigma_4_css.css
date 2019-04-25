@@ -1,0 +1,42 @@
+#fondo{
+    /*background-image:url(../../media/img/enigma_4/nasa.jpg);
+    background-repeat: no-repeat;
+    background-color:purple;*/
+    padding:20px;
+    border:solid 3px #18bb97;
+    background-color:rgba(108, 16,134, 0.4);
+}
+img.elem{
+     height: 70px;
+     width: 70px;
+}
+.content{
+    background-color:#8515a4;
+    height:85px;
+    width:85px;
+    border-radius: 5px;
+}
+div.elem{
+    width:100px;
+    height:100px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#descuento{
+    color: red;
+}
+.title{
+    background-color:#8515a4;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+h3,h2{
+   color:white; 
+}
+.bg-purple {
+    background-color: #8515a4;
+    border: solid 1px #18bb97;
+}
+.white{
+    color:white;
+}

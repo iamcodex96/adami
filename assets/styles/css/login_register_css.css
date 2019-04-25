@@ -1,0 +1,37 @@
+/**
+ * LOGIN REGISTER CSS
+ * Autor: Adrià Martínez i Mayné || David Corredera Pérez
+ * Fecha: 14/11/2018 - 19/11/2018
+ * Revisor: ---
+ * Fecha:   ---
+ */
+
+ .card {
+    background-color:rgba(108, 16,134, 0.4)!important;
+  }
+  
+  hr {
+    border-color: #FFF;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  #register_link {
+    text-decoration: none;
+  }

@@ -1,0 +1,51 @@
+/**
+  * INDEX CSS
+  * Autor:    Adrià Martínez i Mayné || Justine Visitación Calpito
+  * Fecha:    29/11/2018
+  * Revisor:  ---
+  * Fecha:    ---
+  */
+
+html,
+body {
+  height: 100%;
+  background: url(../../media/img/estrellas.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+}
+
+.dropdown-menu, .dropdown-menu a, .dropdown-menu a:hover {
+  color: white;
+  background-color: black !important;
+}
+
+.navbar .navbar-toggler {
+  cursor: pointer;
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 80px;
+  }
+  .navbar-dark {
+    background-color: black;
+  }
+}
+
+.sub a:hover {
+  border-bottom: 2px solid #059f94;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.inner a {
+  text-decoration: none;
+}
